@@ -40,6 +40,7 @@ pre {
     font-weight: 500;
     margin: 0;
     padding-inline: 20px;
+    padding-top: 20px;
     border-left: 5px solid #000000;
     background-color: rgba(0, 0, 0, 0.05);
     border-radius: 6px;
