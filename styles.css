@@ -31,11 +31,15 @@ h1 {
     text-align: center;
 }
 
+h6 {
+    font-weight: 500;
+}
+
 pre {
     font-family:'Montserrat Alternates', sans-serif, arial;
     font-weight: 500;
     margin: 0;
-    padding: 20px;
+    padding-inline: 20px;
     border-left: 5px solid #000000;
     background-color: rgba(0, 0, 0, 0.05);
     border-radius: 6px;
@@ -50,7 +54,7 @@ main {
 
 footer {
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-top: auto;
     border-top: 1px solid #dddddd;
     padding-top: 15px;
@@ -77,12 +81,20 @@ figcaption {
     align-self: center;
 }
 
+
 .pushkin-image {
     width: 213px;
     height: auto;
     justify-content: center;
     align-items: center;
     border-radius: 6px;
+}
+
+.text {
+    display: flex;
+    height: 100;
+    justify-content: center;
+    align-items: center;
 }
 
 section {
@@ -93,8 +105,15 @@ figcaption {
     font-weight: 500;
 }
 
-@media (max-width: 768px) {
+div {
+    text-align: center;
+}
 
+audio {
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
     section {
         padding: 0;
     }
@@ -130,3 +149,4 @@ figcaption {
         margin-top: 20px;
     }
 }
+
